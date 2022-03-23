@@ -35,7 +35,7 @@ p{
 }
 h1{
     margin-top: 20px;
-    font-weight: 500;
+    font-weight: bold;
     font-family:'Dancing Script', sans-serif;
 }
 .btn{
@@ -50,5 +50,39 @@ h1{
     border-radius: 4px;
     background: #17a2b8;
     cursor: pointer;
+}
+
+@media (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+@media (max-width: 576px){
+    .container{
+        max-width: 280px;
+    }
+    p{
+        font-size: 20px;
+    }
+    /* .wrapper{
+        width: 50%;
+    } */
     
+}
+@media (max-width: 320px){
+    .container{
+        max-width: 70%;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
 }
